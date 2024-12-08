@@ -25,7 +25,8 @@ condition_paths = {
 
 root = Tk()
 root.title('Malgor Taunt Manager')
-root.geometry('300x100+20+20')
+root.geometry('250x180+5+5')
+root.resizable(False, False)
 root.attributes('-topmost', True)
 for i in range(6):
     root.columnconfigure(i, weight=1)
@@ -41,26 +42,39 @@ def check_taunt():
     if not running:
         return
     condition = order[step]
-    img1 = get_screenshot_of_window(hwnd)
+    img1 = get_screenshot_of_window(hwnd, (0, 0, 1600, 300))
     img2 = load_image(condition_paths[condition])
     if is_image_on_screen(img1, img2, confidence=0.7):
         if condition == 'red':
+            taunts[condition] += 1
             if is_in_list(step, plans[class_name]):
-                lbl.config(text='Stay in', foreground='red')
+                lbl.config(text='Stay in' + '\nRed: ' + str(((taunts['red'] - 1) % 4) + 1), foreground='red')
                 lbl.after(2900, check_taunt)
             else:
-                lbl.config(text='Stay out', foreground='red')
+                lbl.config(text='Stay out' + '\nRed: ' + str(((taunts['red'] - 1) % 4) + 1), foreground='red')
                 lbl.after(2900, check_taunt)
         else:
             if is_in_list(step, plans[class_name]):
-                lbl.config(text='Taunt now', foreground='red')
+                t2 = ''
+                if class_name == 'LoO' or class_name == 'SC':
+                    t2 = 'Leave zone\n'
+                lbl.config(text=t2 + 'Taunt now', foreground='red')
+                lbl.after(1900, check_taunt)
+            elif is_in_list(step + 1, plans[class_name]):
+                msg = 'Prepare \nto taunt'
+                if class_name == 'LoO' or class_name == 'SC':
+                    msg = 'Go to \nzone edge'
+                lbl.config(text=msg, foreground='black')
                 lbl.after(1900, check_taunt)
             else:
-                lbl.config(text='Idle', foreground='black')
+                lbl.config(text='Idle: ' + class_name, foreground='black')
                 lbl.after(1900, check_taunt)
         step += 1
     else:
-        lbl.config(text='Idle', foreground='black')
+        msg = 'Idle: ' + class_name
+        if is_in_list(step + 1, plans[class_name]):
+            msg = 'Prepare \nto taunt'
+        lbl.config(text=msg, foreground='black')
         lbl.after(100, check_taunt)
 
 def start(name):
@@ -96,8 +110,7 @@ lbl.grid(row=0, column=0, columnspan=6)
 buttons = []
 for i in range(4):
     classes = ['AP', 'SC', 'LoO', 'LR']
-    class_name = classes[i]
-    button = Button(command=lambda: start(class_name), text=class_name)
+    button = Button(command=lambda name=classes[i]: start(name), text=classes[i])
     button.grid(row=1, column=i+1, sticky="nsew")
     buttons.append(button)
 mainloop()

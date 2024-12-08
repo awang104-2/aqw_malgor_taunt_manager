@@ -13,9 +13,10 @@ class ImageNotFound(Exception):
         super().__init__(message)
 
 
-def get_screenshot_of_window(hwnd, save=False, save_path='screenshot.png'):
+def get_screenshot_of_window(hwnd, args=(0, 0, 1920, 1080), save=False, save_path='screenshot.png'):
     # Get the window size
     left, top, right, bot = win32gui.GetWindowRect(hwnd)
+    left, top, right, bot = args
     width = right - left
     height = bot - top
 

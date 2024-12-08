@@ -84,7 +84,7 @@
  [],
  False,
  False,
- 1733653449,
+ 1733684643,
  [('run.exe',
    'C:\\Users\\awee2\\PycharmProjects\\aqw_malgor\\.venv312\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')],
