@@ -5,9 +5,13 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv312" />
       <excludeFolder url="file://$MODULE_DIR$/.venv313" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.12 (aqw_malgor)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (aqw_malgor) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="autoclicker" />
     <orderEntry type="module" module-name="ae_512" />
+    <orderEntry type="module" module-name="unknown_planet" />
+    <orderEntry type="module" module-name="atmospheric_reentry" />
+    <orderEntry type="module" module-name="ae598final" />
+    <orderEntry type="module" module-name="static_divergence" />
   </component>
 </module>

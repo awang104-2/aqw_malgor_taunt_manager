@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ae598final/.idea/ae598final.iml" filepath="$PROJECT_DIR$/../ae598final/.idea/ae598final.iml" />
       <module fileurl="file://$USER_HOME$/OneDrive/Documents/GitHub/ae_512/.idea/ae_512.iml" filepath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/.idea/ae_512.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/aqw_malgor.iml" filepath="$PROJECT_DIR$/.idea/aqw_malgor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../atmospheric_reentry/.idea/atmospheric_reentry.iml" filepath="$PROJECT_DIR$/../atmospheric_reentry/.idea/atmospheric_reentry.iml" />
       <module fileurl="file://$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" filepath="$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../static_divergence/.idea/static_divergence.iml" filepath="$PROJECT_DIR$/../static_divergence/.idea/static_divergence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../unknown_planet/.idea/unknown_planet.iml" filepath="$PROJECT_DIR$/../unknown_planet/.idea/unknown_planet.iml" />
     </modules>
   </component>
 </project>
