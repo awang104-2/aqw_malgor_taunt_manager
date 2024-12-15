@@ -26,10 +26,14 @@ class Manager:
             self.taunts[msg] += 1
         if self.taunts[msg] == 0:
             zone = 0
+            class_string = ''
+            string = 'Red: ' + str(zone) + class_string
+            return string, False
         else:
             zone = (self.taunts[msg] - 1) % 4 + 1
-        string = 'Red: ' + str(zone)
-        return string, Manager.classes[zone - 1] == self.name
+            class_string = ' ' + '(' + Manager.classes[zone - 1] + ')'
+            string = 'Red: ' + str(zone) + class_string
+            return string, Manager.classes[zone - 1] == self.name
 
 
 class ZoneManager:
@@ -45,7 +49,7 @@ class ZoneManager:
         self.running = False
         self.manager = None
         self.lbl = Label(self.root, font=('calibri', 40, 'bold'))
-        self.lbl.config(text='Choose:')
+        self.lbl.config(text='Choose:', foreground='black')
         self.lbl.grid(row=0, column=0, columnspan=6)
         self.spawn_buttons()
         mainloop()
@@ -77,7 +81,7 @@ class ZoneManager:
         self.running = False
         self.forget_all()
         self.spawn_buttons()
-        self.lbl.config(text='Choose:')
+        self.lbl.config(text='Choose:', foreground='black')
         self.lbl.grid(row=0, column=0, columnspan=6, sticky='nsew')
 
     def check_taunt(self):
