@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$USER_HOME$/OneDrive/Documents/GitHub/ae_512" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../autoclicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../static_divergence" vcs="Git" />
   </component>
 </project>
