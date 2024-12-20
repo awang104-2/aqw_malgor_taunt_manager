@@ -18,6 +18,7 @@ class Manager:
         self.name = name
         self.taunts = {'truth': 0, 'listen': 0, 'red': 0}
         self.hwnd = hwnd
+        self.red = False
 
     def __call__(self):
         is_red = self.check_screen()
