@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6d25df9-d9af-49c7-b4c3-afe245e322d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/README" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/.idea/ae_512.iml" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/.idea/ae_512.iml" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/data/nozzle_thermo_properties.dat" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/data/nozzle_thermo_properties.dat" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/density_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/density_graph.png" afterDir="false" />
@@ -13,6 +14,8 @@
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/pressure_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/pressure_graph.png" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/temperature_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/temperature_graph.png" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/velocity_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/velocity_graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zone_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/zone_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autoclicker/handlers/ImageHandler.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../static_divergence/static_divergence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_divergence/static_divergence.py" afterDir="false" />

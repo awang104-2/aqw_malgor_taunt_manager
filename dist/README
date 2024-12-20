@@ -1,0 +1,15 @@
+This program is meant to count the order of red zones and the current red zone.
+When a zone that isn't yours is active, the text will turn green.
+When a zone that is yours is active, the text will flash red and blue.
+When there are no zones active, the text will display the current/past zone number and corresponding class.
+
+This program works with the following settings:
+Resolution: 1920x1080
+Game Quality: Low
+Monster Animations: Disabled
+Player Animations: Disabled
+Damage Numbers: Enabled or Disabled
+Monster: Hide or Show
+Smooth Background: On
+
+Changes to these settings may affect the functionality of the program. Change at your own risk.
