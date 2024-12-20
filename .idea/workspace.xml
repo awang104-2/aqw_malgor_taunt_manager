@@ -13,9 +13,9 @@
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/pressure_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/pressure_graph.png" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/temperature_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/temperature_graph.png" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/velocity_graph.png" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Documents/GitHub/ae_512/graphs/velocity_graph.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zone_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/zone_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../autoclicker/.idea/autoclicker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../autoclicker/handlers/ImageHandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static_divergence/static_divergence.py" beforeDir="false" afterPath="$PROJECT_DIR$/../static_divergence/static_divergence.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,42 +47,55 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Python.ImageHandler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aerodynamic_model.executor&quot;: &quot;Run&quot;,
     &quot;Python.atmospheric_reentry.executor&quot;: &quot;Run&quot;,
     &quot;Python.atmospheric_reentry_copy.executor&quot;: &quot;Run&quot;,
     &quot;Python.atomosphric_reentry.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculations.executor&quot;: &quot;Run&quot;,
     &quot;Python.dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flutter_code.executor&quot;: &quot;Run&quot;,
     &quot;Python.integration_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.integration_tester.executor&quot;: &quot;Run&quot;,
     &quot;Python.interface.executor&quot;: &quot;Run&quot;,
     &quot;Python.kalman_learned.executor&quot;: &quot;Run&quot;,
     &quot;Python.kalman_only.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kinetics.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.malgor_taunt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mixtures.executor&quot;: &quot;Run&quot;,
     &quot;Python.no_net.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nonequilibrium_flow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.physicalFuncs.executor&quot;: &quot;Run&quot;,
     &quot;Python.rayleigh_ritz.executor&quot;: &quot;Run&quot;,
     &quot;Python.rayleight_ritz_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shockBGKSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Python.species.executor&quot;: &quot;Run&quot;,
+    &quot;Python.static_divergence.executor&quot;: &quot;Run&quot;,
     &quot;Python.tester.executor&quot;: &quot;Run&quot;,
     &quot;Python.unknown_planet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vt_transfer.executor&quot;: &quot;Run&quot;,
     &quot;Python.zone_manager.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/awee2/PycharmProjects/aqw_malgor/dist/zone_manager&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/awee2/PycharmProjects/calculations&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\awee2\PycharmProjects\mgd" />
       <recent name="C:\Users\awee2\PycharmProjects\aqw_malgor\dist\zone_manager" />
       <recent name="C:\Users\awee2\PycharmProjects\aqw_malgor" />
       <recent name="C:\Users\awee2\PycharmProjects\unknown_planet\data" />
       <recent name="C:\Users\awee2\PycharmProjects\atmospheric_reentry" />
-      <recent name="C:\Users\awee2\PycharmProjects\unknown_planet" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\awee2\PycharmProjects\aqw_malgor" />
+      <recent name="C:\Users\awee2\PycharmProjects\chatgpt" />
       <recent name="C:\Users\awee2\PycharmProjects\static_divergence" />
       <recent name="C:\Users\awee2\PycharmProjects\ae598final" />
       <recent name="C:\Users\awee2\PycharmProjects\unknown_planet" />
-      <recent name="C:\Users\awee2\PycharmProjects\divergence_calculator" />
-      <recent name="C:\Users\awee2\OneDrive\Documents\GitHub\ae_512" />
     </key>
   </component>
   <component name="SharedIndexes">
