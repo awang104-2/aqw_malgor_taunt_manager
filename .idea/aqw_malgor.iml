@@ -13,5 +13,9 @@
     <orderEntry type="module" module-name="atmospheric_reentry" />
     <orderEntry type="module" module-name="ae598final" />
     <orderEntry type="module" module-name="static_divergence" />
+    <orderEntry type="module" module-name="shocking" />
+    <orderEntry type="module" module-name="flutter" />
+    <orderEntry type="module" module-name="mgd" />
+    <orderEntry type="module" module-name="calculations" />
   </component>
 </module>
